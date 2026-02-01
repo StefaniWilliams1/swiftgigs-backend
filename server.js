@@ -8,11 +8,13 @@ app.use(cors());
 app.use(express.json());
 
 mongoose.connect(process.env.MONGO_URI)
-.then(()=>console.log("MongoDB Connected"))
-.catch(err=>console.log(err));
+.then(() => console.log("MongoDB Connected"))
+.catch(err => console.log(err));
 
-app.get("/", (req,res)=>{
-  res.send("Backend Working");
+app.get("/", (req, res) => {
+  res.send("SwiftGigs Backend Running");
 });
 
-app.listen(5000, ()=>console.log("Server Started"));
+app.listen(5000, () => {
+  console.log("Server started on port 5000");
+});

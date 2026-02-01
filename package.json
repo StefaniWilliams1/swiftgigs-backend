@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,13 @@
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "mongoose": "^9.1.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefaniWilliams1/swiftgigs-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/StefaniWilliams1/swiftgigs-backend/issues"
+  },
+  "homepage": "https://github.com/StefaniWilliams1/swiftgigs-backend#readme"
 }
